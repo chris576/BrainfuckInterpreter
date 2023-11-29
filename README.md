@@ -22,12 +22,9 @@ This is a modern Implementation of `Brainfuck` written in Rust. Syntax is very s
 ## Requirements
 
 * You had to have installed cargo and rust installed. 
-* Clone this project. 
-* The main branch is protected, unsless you have administration-rights.
-* In order to make your solutions accessible for anyone, I would assume that you are opening a new branch. Naming could be as follows: 
+* Fork the project. 
+* In order to make your solutions accessible for anyone, I would assume that the naming of your fork is as follows: 
   * `your-names+task_name`
-* Afterword I would like you to push your branch to this repo.
-
 ---
 
 ## Tasks
