@@ -19,6 +19,17 @@ This is a modern Implementation of `Brainfuck` written in Rust. Syntax is very s
 
 ---
 
+## Requirements
+
+* You had to have installed cargo and rust installed. 
+* Clone this project. 
+* The main branch is protected, unsless you have administration-rights.
+* In order to make your solutions accessible for anyone, I would assume that you are opening a new branch. Naming could be as follows: 
+  * `your-names+task_name`
+* Afterword I would like you to push your branch to this repo.
+
+---
+
 ## Tasks
 
 In order to learn more effectivly, organize yourself in groups of 1 to 3. The tasks are categorizes from lover, to middle, to higher level programming challanges. Feel free to solve as many challanges, as you can take
@@ -44,7 +55,7 @@ I would assume the following approach for this task:
 * `[` starts the loop.
 * `]` ends the loop.
 * `;` divides the loop between header and body.
-* `3*,;` Could be an example for the header section. The loop will be executed three times to the users input.
+* `>++.;` Could be an example for the header section. The loop will be executed 2 times plus the value of the left cell.
 * `<.>+` In any run of the loop:
   * The pointer is moved to right.
   * Output of the current value.
@@ -58,3 +69,8 @@ I would assume, that this functionality could be implemented by adding switches 
 * `-in:type` in type of `char` or `int`, or `bin`
 * Literals could be implemented for different representatioons of `int`
 * Same for `std:in`
+
+### File-Input ( Medium Mode )
+
+In this task you shall make it possible, to make a `.bf` (Text) file parsable and runnable by the interpreter. 
+A new switch could be defined ( like `-in=`) that defines the input `.bf` file
